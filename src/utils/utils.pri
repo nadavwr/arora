@@ -5,6 +5,7 @@ HEADERS += \
     editlistview.h \
     edittableview.h \
     edittreeview.h \
+    flickcharm.h \
     languagemanager.h \
     lineedit.h \
     lineedit_p.h \
@@ -19,6 +20,7 @@ SOURCES += \
     editlistview.cpp \
     edittableview.cpp \
     edittreeview.cpp \
+    flickcharm.cpp \
     languagemanager.cpp \
     lineedit.cpp \
     networkaccessmanagerproxy.cpp \

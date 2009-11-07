@@ -73,6 +73,7 @@
 #include "browserapplication.h"
 #include "browsermainwindow.h"
 #include "downloadmanager.h"
+#include "flickcharm.h"
 #include "opensearchengine.h"
 #include "opensearchengineaction.h"
 #include "opensearchmanager.h"
@@ -144,6 +145,8 @@ WebView::WebView(QWidget *parent)
             this, SLOT(hideAccessKeys()));
 #endif
     loadSettings();
+    FlickCharm* flickCharm = new FlickCharm(this);
+    flickCharm->activateOn(this);
 }
 
 void WebView::loadSettings()
